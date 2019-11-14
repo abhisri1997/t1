@@ -7,6 +7,7 @@ body {
 .container{
   margin: auto;
   width: 1000px;
+  padding-top: 20px;
 }
 
 .container .header .logo a:hover{
@@ -17,12 +18,17 @@ body {
     color:darkblue;
 }
 
+.container .cart .kart{
+  padding-right: 7px;
+}
+
 .header{
-  height: 80px;
+  height: 40px;
 }
 
 .logo{
   float: left;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   font-size: 40px;
@@ -47,18 +53,206 @@ body {
 	padding: 16px 20px;
 }
 
+.container .cart{
+    position: absolute;
+    left: 70%;
+    background-image: url("/images/website_list_page/Rounded-Rectangle-2.png");
+    border-radius: 10px;
+    width: 140px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 24px;
+    padding-top: 10px;
+}
+
 .main{
-  background-image: linear-gradient(pink,blue);
-  height: 600px;
+  background-image: url("/bg.jpg");
+/*  background-image: linear-gradient(pink,blue); */
+  height: 680px;
   background-size: cover;
   background-position: center;
 }
 
-.flogo a{
-    color: #115387;
+.main-text{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  word-spacing: 2px;
+}
+
+.main .main-container{
+  margin-top: 15px;
+  width: 1000px;
+  padding-left: 20%;
+  display: flex;
+}
+
+.main .main-container .left-container{
+  background-color: white;
+  height: 380px;
+  border-radius: 20px;
+  float: left;
+  width: 200px;
+  max-width: 400px;
+  padding: 20px 20px;
+}
+
+.main .main-container .left-container .lc-heading{
+    font-size: 1.3rem;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: rgb(164, 219, 112);
+}
+
+.main .main-container .left-container .lc-heading hr{
+    width: 70px;
+    border-bottom: 0.5px solid rgb(164, 219, 112);
+}
+
+.main .main-container .left-container .content{
+    text-align: left;
+    font-size: 0.9rem;
+    color: rgb(18, 89, 170);
+}
+
+.main .main-container .left-container .bottom{
+    margin-top: 0.5rem;
+    text-align: center;
+    height: 27px;
+    width: 190px;
+    background-image: url("/images/website_list_page/Layer-4.png");
+    background-repeat: no-repeat;
+}
+
+.main .main-container .right-container{
+  float: right;
+  padding-left: 25px;
+}
+
+.main .main-container .right-container .product-card{
+    border-radius: 20px;
+    background-color: white;
+}
+
+.column {
+    float: left;
+    width: 170px;
+    padding: 0 10px;
+  }
+
+  .row {margin: 0 0 20px 0;}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .card {
+    padding: 7px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    height: 220px;
+    background-image: url("/images/website_list_page/rec-blue.png");
+    background-repeat: no-repeat;
+  }
+
+  .card .card-head{
+      color: white;
+      font-weight: 500;
+      letter-spacing: 1px;
+  }
+
+  .card .card-body{
+    height: 120px;
+    text-align: center;
+    background-image: url("/images/website_product_page/Untitled-3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+
+.card .card-foot-1{
+    align-self: center;
+    height: 19px;
+    text-align: center;
+    background-image: url("/images/website_list_page/Untitled-2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 1rem;
+}
+.card .card-foot-2{
+    height: 19px;
+    text-align: center;
+    background-image: url("/images/website_product_page/button-blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 4px;
+    margin-left: 1rem;
+}
+
+.col1{
+  width: 30%;
+  float: left;
+}
+
+.col1 a{
+    color: #68c4d3;
     text-decoration: none;
     float: left;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.col2{
+  width: 15%;
+  letter-spacing: 0.5px;
+  color: #68c4d3;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.col3{
+  width: 15%;
+  letter-spacing: 0.5px;
+  color: #68c4d3;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.col4{
+  width: 20%;
+  letter-spacing: 0.5px;
+  color: #68c4d3;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.col5{
+  color: #68c4d3;
+  float: left;
+  letter-spacing: 0.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 15px;
 }
