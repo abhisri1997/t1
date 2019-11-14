@@ -56,7 +56,7 @@ body {
 .container .cart{
     position: absolute;
     left: 70%;
-    background-image: url("/images/website_list_page/Rounded-Rectangle-2.png");
+    background-image: url("../images/website_list_page/Rounded-Rectangle-2.png");
     border-radius: 10px;
     width: 140px;
     height: 25px;
@@ -68,7 +68,7 @@ body {
 }
 
 .main{
-  background-image: url("/bg.jpg");
+  background-image: url("../bg.jpg");
 /*  background-image: linear-gradient(pink,blue); */
   height: 680px;
   background-size: cover;
@@ -125,7 +125,7 @@ body {
     text-align: center;
     height: 27px;
     width: 190px;
-    background-image: url("/images/website_list_page/Layer-4.png");
+    background-image: url("../images/website_list_page/Layer-4.png");
     background-repeat: no-repeat;
 }
 
@@ -159,7 +159,7 @@ body {
     background-color: #f1f1f1;
     border-radius: 20px;
     height: 220px;
-    background-image: url("/images/website_list_page/rec-blue.png");
+    background-image: url("../images/website_list_page/rec-blue.png");
     background-repeat: no-repeat;
   }
 
@@ -172,7 +172,7 @@ body {
   .card .card-body{
     height: 120px;
     text-align: center;
-    background-image: url("/images/website_product_page/Untitled-3.png");
+    background-image: url("../images/website_product_page/Untitled-3.png");
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 10px;
@@ -183,7 +183,7 @@ body {
     align-self: center;
     height: 19px;
     text-align: center;
-    background-image: url("/images/website_list_page/Untitled-2.png");
+    background-image: url("../images/website_list_page/Untitled-2.png");
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 10px;
@@ -192,7 +192,7 @@ body {
 .card .card-foot-2{
     height: 19px;
     text-align: center;
-    background-image: url("/images/website_product_page/button-blue.png");
+    background-image: url("../images/website_product_page/button-blue.png");
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 4px;
