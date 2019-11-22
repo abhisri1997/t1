@@ -82,31 +82,22 @@ body {
 
 .main-text{
   color: white;
-  padding-top: 15px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  word-spacing: 2px;
 }
 
-.main .main-container{
-  width: 1000px;
-  padding-left: 5%;
-  /*display: flex;*/
-  float: left;
-}
-
-.main .main-container .left-container{
+.left-container{
   background-color: white;
   height: 400px;
   border-radius: 20px;
   float: left;
   width: 200px;
   max-width: 400px;
-  padding: 20px 20px;
+  padding: 0 20px 20px 20px;
 }
 
-.main .main-container .left-container .lc-heading{
+.left-container .lc-heading{
     font-size: 1.3rem;
     text-align: center;
     letter-spacing: 1px;
@@ -114,19 +105,18 @@ body {
     color: rgb(164, 219, 112);
 }
 
-.main .main-container .left-container .lc-heading hr{
+.left-container .lc-heading hr{
     width: 70px;
     border-bottom: 0.5px solid rgb(164, 219, 112);
 }
 
-.main .main-container .left-container .content{
-    text-align: left;
+.left-container .content{
+    text-align: justify;
     font-size: 0.9rem;
-    padding-bottom: 5px;
     color: rgb(18, 89, 170);
 }
 
-.main .main-container .left-container .bottom{
+.left-container .bottom{
     margin-top: 0.5rem;
     text-align: center;
     height: 27px;
@@ -135,12 +125,12 @@ body {
     background-repeat: no-repeat;
 }
 
-.main .main-container .right-container{
+.right-container{
   float: left;
   padding-left: 25px;
 }
 
-.main .main-container .right-container .product-card{
+.right-container .product-card{
     border-radius: 20px;
     background-color: white;
 }
@@ -150,15 +140,6 @@ body {
     width: 170px;
     padding: 0 30px 30px 15px;
   }
-
-  /*.row {margin: 0 0 25px 0;}
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }*/
-
 
   .card {
     padding: 5px;
